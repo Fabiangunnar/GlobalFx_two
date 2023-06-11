@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = axios.create({
   //   baseURL: `http://localhost:5000`,
-  baseURL: `https://globaltycoonfxapi.onrender.com/`,
+  baseURL: `https://globaltycoonfxtwoapi.onrender.com`,
 });
 //  Auth Register
 export const loginAdminApi = async (formData: any) => {
